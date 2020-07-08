@@ -1,12 +1,12 @@
 
 CREATE TABLE IF NOT EXISTS students
-(id_number 		INT(9),
-first_name		VARCHAR(30)
-last_name		VARCHAR(20)
+(id_number 		 INT(9),
+first_name		  VARCHAR(30),
+last_name		   VARCHAR(20),
 date_of_birth	DATE,
-hometown		VARCHAR(15),
-course			CHAR(5),
-points			INT(3)
+hometown		    VARCHAR(15),
+course			     CHAR(5),
+points			     INT(3)
 PRIMARY KEY(id_number));
 
 
@@ -26,7 +26,7 @@ id number	first name	last name	date of birth	hometown	course	points
  * include all the columns in the result.*/
 
 SELECT * 
-FROM students
+FROM students;
 
 /*2. List the names (first name, followed by last name) 
  * of all the students in the table.*/
